@@ -1,0 +1,30 @@
+.weatherDataCont{
+	position: relative;
+	width:90%;
+	height:150px;
+	top: 0.13em;
+	color: #642EFE;
+	bottom: 1em;
+  background-color: #F8ECE0;
+  left: 1em;
+}
+.time{
+	font-size: 1.5em;
+	padding: 1em;
+}
+.icon{
+	color: #FF8000;
+	padding-left: 0.70em;
+}
+.h-v{
+	position: absolute;
+	bottom: 3em;
+	left: 20em;
+	color: #FF8000;
+}
+.temp{
+	position: relative;
+	bottom: 2em;
+	left: 4em;
+	font-size: 1.5em;
+}

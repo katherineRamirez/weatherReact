@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.detail{
+  background-color: white;
+  height: 150vh;
+  margin-top: 3em;
+  margin-left: 1.5em;
+  overflow: scroll;
+}
+.pronostico{
+  color: #6E6E6E;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 1.7em;
+}
+
+.cargando-pronostico{
+  color: #6E6E6E;
+  text-align: center;
+}
+.seleccion{
+  color: #6E6E6E;
+  text-align: center;
+}
+#body{
+  background-image: url(http://www.fatadigital.com/wp-content/uploads/2013/09/iconos-clima3.jpg);
+  height: 400vh;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.hour{
+  font-size: 2em;
+  margin-left: 1em;
+  padding-top: 1em;
+  color: grey;
+}
